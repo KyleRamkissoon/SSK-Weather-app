@@ -1,0 +1,139 @@
+*{
+    font-family: "Lucida Console";
+}
+
+body{
+    background-image: url(https://wallpaperpure.net/wp-content/uploads/2018/07/77920a56b3e1d439ee9da74ba97799c7.png);
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+.container{
+    width: 500px;
+    background-color: #e1e1ff;
+
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 200px;
+    padding-bottom : 50px;
+
+}
+
+.app-title{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 500px;
+    height: 260px;
+    background-color: #F4F9FF;
+    border-radius: 50px;
+
+
+}
+
+.weather-icon{
+    width: 500px;
+    height: 105px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 500px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="button"]{
+  padding: 15px 30px;
+  background: #e1e1ff;
+  border: none;
+  border-radius: 10px;
+  font-family: "Lucida Console";
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e1e1ff;
+  border: none;
+  border-radius: 10px;
+  font-family: "Lucida Console";
+  font-weight:bold;
+  font-size: 20px;
+}

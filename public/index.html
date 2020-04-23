@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://i.imgur.com/VEQb0G1.gif">
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="app-title">
+            <p>Statistics</p>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+            <br>
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+    
+            </div>
+        </div>
+    </div>
+    <div class="input">
+      <input type="text" placeholder="Example: Port of Spain, TT" class="input_text">
+      <input type="button" value="GO" class="submit">
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+
+ <script type="module">
+ import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+    </script> 
+
+</body>
+</html>
